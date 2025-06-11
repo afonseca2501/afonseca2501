@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="DinoMundo: packs imprimibles bilingües para que los niños de 3 a 4 años aprendan jugando" />
+  <title>DinoMundo · Play & Learn Pack</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --primary: #FFC107;
+      --secondary: #29B6F6;
+      --accent: #FF7043;
+      --bg-light: #FFF8E1;
+      --text-dark: #333;
+    }
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Montserrat', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: var(--bg-light);
+      color: var(--text-dark);
+      line-height: 1.6;
+    }
+    header, .section {
+      width: 100%;
+      max-width: 900px;
+      margin: auto;
+      padding: 1rem;
+    }
+    header.hero {
+      background: linear-gradient(135deg, var(--primary), var(--secondary));
+      color: #fff;
+      text-align: center;
+      padding: 3rem 1rem 5rem;
+      position: relative;
+      overflow: hidden;
+    }
+    header.hero img {
+      max-width: 220px;
+      width: 60%;
+      margin: 1rem auto 0;
+    }
+    header.hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: .25rem;
+    }
+    header.hero p.subtitle {
+      font-size: 1.1rem;
+      margin: 0 0 1rem;
+    }
+    .btn-primary {
+      display: inline-block;
+      background: var(--accent);
+      color: #fff;
+      padding: .75rem 1.75rem;
+      border-radius: 2rem;
+      text-decoration: none;
+      font-weight: 700;
+      transition: background .2s ease-in-out;
+    }
+    .btn-primary:hover {
+      background: #e55d32;
+    }
+    .section h2 {
+      font-size: 1.8rem;
+      text-align: center;
+      margin: 2rem 0 1rem;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+      justify-items: center;
+    }
+    .card {
+      background: #fff;
+      padding: 1.25rem;
+      border-radius: 1.25rem;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.12);
+      max-width: 380px;
+      width: 100%;
+      text-align: center;
+      position: relative;
+    }
+    .card h3 {
+      color: var(--accent);
+      margin-bottom: .5rem;
+    }
+    .card::before {
+      content: '';
+      position: absolute;
+      width: 120px;
+      height: 120px;
+      background: var(--secondary);
+      border-radius: 50%;
+      top: -30px;
+      right: -30px;
+      opacity: .15;
+      z-index: 0;
+    }
+    .card p, .card ul {
+      position: relative;
+      z-index: 1;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    ul li {
+      margin: .4rem 0;
+    }
+    footer {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 2rem 1rem;
+      margin-top: 3rem;
+      font-size: .9rem;
+    }
+    @media(min-width:600px) {
+      .grid-2 { grid-template-columns: repeat(2, 1fr); }
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <h1>DinoMundo · Play & Learn Pack</h1>
+    <p class="subtitle">Imprimibles bilingües para niños 3–4 años</p>
+    <a href="#comprar" class="btn-primary">¡Quiero mi pack!</a>
+    <img src="Dino.webp" alt="Dino personaje" />
+  </header>
+
+  <section class="section">
+    <h2>¿El aprendizaje es abrumador para tu pequeño?</h2>
+    <p>Sabemos que mantener la atención y combinar diversión con educación puede ser un reto. Con DinoMundo, tu niño explorará, jugará y aprenderá de forma natural.</p>
+    <p><strong>Solución:</strong> Packs semanales diseñados pedagógicamente para 10–15 min de actividades multisensoriales.</p>
+  </section>
+
+  <section class="section">
+    <h2>Beneficios Clave</h2>
+    <div class="grid grid-2">
+      <div class="card">
+        <h3>Desarrollo Integral</h3>
+        <p>Trabajo de motricidad fina, gruesa, lógica y sensorial.</p>
+      </div>
+      <div class="card">
+        <h3>Bilingüe Real</h3>
+        <p>Inmersión temprana sin traducciones literales.</p>
+      </div>
+      <div class="card">
+        <h3>Fácil de Usar</h3>
+        <p>Guía paso a paso para padres.</p>
+      </div>
+      <div class="card">
+        <h3>Materiales Imprimibles</h3>
+        <p>25 páginas por semana: recortables, stickers y más.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>¿Qué Incluye un Pack?</h2>
+    <div class="grid grid-2">
+      <div class="card">
+        <h3>Pack Semanal</h3>
+        <p><strong>$7.00</strong> por PDF</p>
+      </div>
+      <div class="card">
+        <h3>Plan Mensual Premium</h3>
+        <p><strong>$21.00</strong> al mes</p>
+        <ul>
+          <li>4 PDFs semanales</li>
+          <li>3 máscaras/gorritos</li>
+          <li>Flashcards</li>
+          <li>Stickers</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Cómo Funciona</h2>
+    <ol>
+      <li>Descarga el PDF semanal.</li>
+      <li>Imprime en casa o en tu papelería favorita.</li>
+      <li>Sigue el ciclo: Explora → Prueba → Reflexiona → Refuerza.</li>
+      <li>Disfruta de aprendizaje y diversión juntos.</li>
+    </ol>
+  </section>
+
+  <section class="section">
+    <h2>Testimonios</h2>
+    <div class="grid">
+      <div class="card">
+        <p>"Mi hijo no se aburre, y he visto gran avance en su atención."</p>
+        <p><strong>- Ana, mamá de Luis</strong></p>
+      </div>
+      <div class="card">
+        <p>"La metodología es clara y divertida. ¡Recomendado 100%!"</p>
+        <p><strong>- Carlos, papá de Sofía</strong></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Preguntas Frecuentes</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>¿Puedo usar el pack en varios dispositivos?</h3>
+        <p>Sí, el PDF es compatible con tabletas, PC e impresoras estándares.</p>
+      </div>
+      <div class="card">
+        <h3>¿Necesito materiales especiales?</h3>
+        <p>Solo papel, tijeras, crayones y tus ganas de aprender.</p>
+      </div>
+      <div class="card">
+        <h3>¿Cómo cancelo mi suscripción?</h3>
+        <p>Desde tu cuenta recibes un enlace para dar de baja con un clic.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="comprar" style="text-align:center;">
+    <a href="#" class="btn-primary">¡Comienza la aventura hoy!</a>
+  </section>
+
+  <footer>
+    &copy; 2025 DinoMundo · Todos los derechos reservados<br />
+    Contacto: hello@dinomundo.com
+  </footer>
+</body>
+</html>
